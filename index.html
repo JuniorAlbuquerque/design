@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-bra">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>THE VELOPERS</title>
+    <meta name="description" content="Estudantes e Programadores da área de Engenharia de Software.">
+    <meta name="author" content="Júnior Albuquerque">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome/all.css">
+    <link rel="stylesheet" href="css/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="img/icon-black.png">
+</head>
+
+<body>
+    <nav>
+        <span id="brand">
+            <a href="index.html">
+                <h1 class="logo"></h1>
+            </a>
+        </span>
+
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contate-nos</a></li>
+        </ul>
+
+        <div id="toggle">
+            <div class="span" id="one"></div>
+            <div class="span" id="two"></div>
+            <div class="span" id="three"></div>
+        </div>
+    </nav>
+
+    <div id="resize">
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>The Velopers</h1>
+    </div>
+
+    <div class="profile">
+        <img class="redondo" src="img/jnr.jpg">
+        <h1>Júnior Albuquerque</h1>
+            <li><a href="https://www.facebook.com/junior.albuquerque.501"><i class="icon fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/jralb_/?hl=pt-br"><i class="icon fab fa-instagram"></i></a></li>
+            <li><a href="mailto:junioralbuquerque81@gmail.com"><i class="icon fas fa-envelope"></i></a></li>
+        <img src="">
+        <img src="">
+    </div>
+
+    <script src="css/jquery.min.js"></script>
+    <script>
+        $("#toggle").click(function () {
+
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+
+        });
+    </script>
+
+</body>
+
+</html>
